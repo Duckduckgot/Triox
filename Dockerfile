@@ -1,4 +1,4 @@
-FROM rust:latest as rust
+FROM rust:buster as rust
 
 LABEL org.opencontainers.image.source https://github.com/Trioxidation/Triox
 
