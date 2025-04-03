@@ -83,7 +83,7 @@ impl AppConfig {
             .unwrap()
             .set_default("server.port", "8080")
             .unwrap()
-            .set_default("server.registration", "false")
+            .set_default("server.registration", "true")
             .unwrap()
             .set_default("files.read_only", "true")
             .unwrap()
